@@ -42,7 +42,7 @@ sed -e 's/\(.*INFO.*\)/\o033[36m\0/' \
 
 Demo 
 ----
-
+<img src="https://github.com/nfouka/PHP4LoggerApache/blob/master/demo.png?raw=true" />
 
 
 Information:
