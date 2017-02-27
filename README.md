@@ -1,2 +1,45 @@
 # PHP4LoggerApache
-Php for logger Object for Symfony2 
+Bundle for logger Object for Symfony2 
+
+
+How to install ?
+----------------
+
+Just add this bundle with  : 
+
+```js
+composer require uga/php4logger-bundle
+```
+Enable it in the Kernel
+
+```php
+new uga\Php4LoggerApacheBundle\ugaPhp4LoggerApacheBundle(),
+```
+
+How to make it  ?
+------------
+
+In your controller:
+```php
+        $em = $this->getDoctrine()->getEntityManager() ;  // Object 
+        $logger = $this->container->get('uga_php4_logger_apache')->getLogger() ; 
+        $logger->info($em); // info
+        $logger->error($em); // error
+        $logger->warn($em); // warning
+        }
+
+```
+
+
+Information:
+------------
+
+* Programmer site : 
+* Web Site  : https://logging.apache.org/log4php/quickstart.html
+
+
+Contact Me
+----------
+Nadir Fouka < nadir@fouka.ovh > 
+* Web Developer Grenoble Alpes University 2017
+* Data Scientist Planet@Dev
