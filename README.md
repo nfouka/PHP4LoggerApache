@@ -1,4 +1,5 @@
 # PHP4LoggerApache
+<img src="https://github.com/nfouka/PHP4LoggerApache/blob/master/log4php.png?raw=true" />
 Bundle for logger Object for Symfony2 
 ```shell
  ____  _           _  _   _                                   __            
