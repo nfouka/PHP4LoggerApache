@@ -1,6 +1,6 @@
 # PHP4LoggerApache
 Bundle for logger Object for Symfony2 
-```js
+```shell
  ____  _           _  _   _                                   __            
 |  _ \| |__  _ __ | || | | |    ___   __ _  __ _  ___ _ __   / _| ___  _ __ 
 | |_) | '_ \| '_ \| || |_| |   / _ \ / _` |/ _` |/ _ \ '__| | |_ / _ \| '__|
