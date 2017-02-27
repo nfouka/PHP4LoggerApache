@@ -1,0 +1,24 @@
+{
+    "name": "uga/php4logger-bundle",
+    "type": "symfony-bundle",
+    "description": "php4logger log your object with symfony2",
+    "keywords": ["logger"],
+    "homepage": "https://github.com/nfouka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadir Fouka",
+            "email": "nadir.fouka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-0": { "uga\\Php4LoggerApacheBundle": "" }
+    },
+    "target-dir": "uga/Php4LoggerApacheBundle"
+}
