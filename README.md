@@ -30,6 +30,20 @@ In your controller:
 
 ```
 
+Result with color in terminal 
+-------------------------
+```shell
+tail -f /tmp/error.log |
+sed -e 's/\(.*INFO.*\)/\o033[36m\0/' \
+    -e 's/\(.*ERROR.*\)/\o033[31m\0/' \
+    -e 's/\(.*WARN.*\)/\o033[33m\0/'
+
+```
+
+Demo 
+----
+
+
 
 Information:
 ------------
