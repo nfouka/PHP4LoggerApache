@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=5.2"
+        "php": ">=5.2" , 
+         "apache/log4php": "^2.3"
     },
     "require-dev": {
         
